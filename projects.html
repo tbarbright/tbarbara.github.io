@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+		<title>Tim Barbara</title>
+		<meta charset="utf-8"> 
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/projects.css">
+		<link rel="stylesheet" type="text/css" href="css/csmb-min.css">
+		<!--Google Font--!>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700italic,700,600italic' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+		<div class="wrapper">			
+			<section id="profile">		
+			    <h1 id="name">Tim Barbara</h1>
+				<ul id="profile_links">
+					<li><a href="https://github.com/tbarbara" class="csmb github csmb-flat csmb-round">GitHub profile: LinkDude80</a></li>
+					<li><a href="https://bitbucket.org/LinkDude80" class="csmb bitbucket csmb-flat csmb-round">BitBucket profile: LinkDude80</a></li>
+					<li><a href="https://www.linkedin.com/pub/tim-barbara/95/621/a80" class="csmb linkedin csmb-flat csmb-round">LinkedIn</a></li>
+				</ul>
+			</section>
+
+            <ul id="nav">
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+
+			<h2>My Projects</h2>
+
+            <div style="text-align:center">
+                <img src="img/mrgame.png" class="dot" onclick="currentSlide(1)"> 
+                <img src="img/taylorfit.png" class="dot" onclick="currentSlide(2)">
+                <img src="img/placeholder_calsq.png" class="dot" onclick="currentSlide(3)">
+            </div>
+
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="img/mrgame_image.jpg" style="width:100%">
+                    <div class="text">
+                        <section id="mrgame">
+                            <h3>Mr. Game!</h3>
+                            <p>Mr. Game! is a board game I co-developed with a team of four people while I was at Stevens. The concept arose from a simple question. "What is a board game?" Well, a board game is about taking your piece at point A and getting it to point B. Then we moved on from there, what if point A became point B? What if the goal could change? How would players react? How does the goal change? Cards? What else can the cards change? The board? The pieces? ...the rules? If the rules are changing what happens when two rules seem to conflict with each other? That last question led to the creation of the role of Mr. Game. Mr. Game's job as a player is simply to read and interpret the rules. Mr. Game's word is law. Of course, rules cannot be broken... but perhaps they can be bent... The ever changing landscape of the game ensures that each play though will be a unique experience. Mr. Game! challenges players to push the boundaries of what is acceptable within the confines of the rules, Mr. Game as a player needs to keep everything running smoothly. What kind of Mr. Game will you be? An upholder of law and order? Or a harbinger of chaos? The only way to know, is to play.</p>
+                            <h3>Challenges</h3>
+                            <p>This was an interesting project from a user experience standpoint. We wanted to avoid "information overload" but at the same time clearly explain what the game was about. Many games struggle with this giving players paragraph after paragraph of intricate rules. The rulebook for Mr. Game! is only a few pages long and is full of colorful pictures and clear bullet points. Keeping the rules clear and concise was important because we wanted all players to have a very good understanding of them so they would get ideas on how to push the boundaries. Creating a ruleset that was ambiguous enough to allow this kind of experimentation but concrete enough to create a cohesive experience was one of our biggest goals. </p>
+                            <h3>More</h3>
+                            <li><a href="www.whoismrgame.com">Website</a></li>
+                            <li><a href="https://twitter.com/whoismrgame">Twitter</a></li>
+                            <li><a href="https://www.facebook.com/whoismrgame/">Facebook</a></li>
+                        </section>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="img/taylorfit_image.png" style="width:100%">
+                    <div class="text">
+                        <section id="taylorfit">
+                            <h3>TaylorFit</h3>
+                            <p>While at Stevens I took a software practicum class which gave students hands on experience with "real software projects for real clients." Our project was a piece of software called TaylorFit which had been developed by a Stevens professor for use in engineering classes. TaylorFit is a piece of software which helps a user develop Multivariate Polynomial Regression (MPR) models. These models can provide a mathematical representation of complex data to be used in various engineering, science, and business applications. The original TaylorFit was developed in C++ in the early 90s as a text based application. My team was tasked with updating this program with a modern graphical interface and additional functionality. I returned to TaylorFit again, this time as the project manager, for our Senior Design class. We further developed the program with new capabilities such as cross platform support, standard file import and export, and graphing capabilities. Over the course of these upgrades much of the original software had to be rewritten.</p>
+                            <h3>Challenges</h3>
+                            <p>TaylorFit was not designed with the user experience in mind. It was cumbersome, it was outdated, it was slow, and required specialized knowledge to get it working. When we first encountered the software it wouldn't even compile on modern hardware. We designed an all new user experience from the ground up. We chose to work with QT due to its ease of use and excellent cross platform support. We worked to integrate the functions of the old math engine with the new interface. This was quite the task as the original codebase had zero documentation and no comments throughout. The core math engine was a 3rd party library written in obfuscated C code. We took care the document and refactor the codebase as we worked so future teams who worked on this project would have an easier time starting.</p>
+                        </section>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="img/placeholder_cal.png" style="width:100%">
+                    <div class="text">
+                         <section id="appointment">
+                            <h3>Appointment Scheduler</h3>
+                            <p>I worked with team to design and implement online appointment scheduler for a web programing class project. We designed and implemented MySQL database containing appointment information and a graphical scheduler using fullcalendar.io, JavaScript, and JQuery, and a PHP backend. The scheduler allows employees to create new event with custom forms holding associated questions for customers as well as times an appointment is available. Customers are able to schedule appointments for these events and supply answers to the questions. </p>
+                            <h3>Challenges</h3>
+                            <p>For this project our professor acted as the "CEO" of the company. Our job was to propose a project to him and then cope with any "ridiculous demands" that he made of us as our CEO. The end result was a very large project that we had to implement in a very short amount of time. The whole team was new to web development so we had to learn as we went. Ultimately we completed the project on time to the satisfaction of our "CEO."</p>
+                        </section>
+                    </div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+            </div>
+
+		<footer>
+				Tim Barbara 2016
+		</footer>
+
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+        </script>
+    </body>
+</html> 

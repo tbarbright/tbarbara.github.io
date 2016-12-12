@@ -1,0 +1,22 @@
+#about > p
+{
+    float: none;
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+#about > img
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    width: 50%;
+}
+
+#about
+{
+    display: inline-block;
+}
