@@ -3,8 +3,8 @@
 		<title>Tim Barbara</title>
 		<meta charset="utf-8"> 
 		<link rel="stylesheet" type="text/css" href="css/main.css">
-		<link rel="stylesheet" type="text/css" href="css/about.css">
 		<link rel="stylesheet" type="text/css" href="css/csmb-min.css">
+		<link rel="stylesheet" type="text/css" href="css/about.css">
 		<!--Google Font--!>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700italic,700,600italic' rel='stylesheet' type='text/css'>
 	</head>
@@ -12,29 +12,34 @@
 	<body>
 		<div class="wrapper">			
 			<section id="profile">		
-			    <h1 id="name">Tim Barbara</h1>
+			    <h1 id="name"><a href="index.html">Tim Barbara</a></h1>
 				<ul id="profile_links">
 					<li><a href="https://github.com/tbarbara" class="csmb github csmb-flat csmb-round">GitHub profile: LinkDude80</a></li>
-					<li><a href="https://bitbucket.org/LinkDude80" class="csmb bitbucket csmb-flat csmb-round">BitBucket profile: LinkDude80</a></li>
-					<li><a href="https://www.linkedin.com/pub/tim-barbara/95/621/a80" class="csmb linkedin csmb-flat csmb-round">LinkedIn</a></li>
+					<li><a href="https://bitbucket.org/tbarbara" class="csmb bitbucket csmb-flat csmb-round">BitBucket profile: LinkDude80</a></li>
+					<li><a href="https://www.linkedin.com/in/tim-barbara-a8062195" class="csmb linkedin csmb-flat csmb-round">LinkedIn</a></li>
 				</ul>
 			</section>
 
-            <ul id="nav">
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="resume.html">Resume</a></li>
-            </ul>
-
-			<h2>About Me</h2>
-			
-			<article id="about">
+            <nav id="nav">
+                <ul>
+                    <li><a href="about.html" class="activelink">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                </ul>
+            </nav>
+            
+			<section id="about">
 				<img src="img/profile.jpg" alt="Profile Picture">
-				<p>My name is Tim Barbara. I'm a software developer based in the New York area. I have been working with computers since I was four years old and will continue to do so until human society is overtaken by the machines. I am interested in all aspects of design and software development and love to play and design video and tabletop games in my spare time.</p>
-			</article>
-
+				<article id="about-text">
+    				<h2>About Me</h2>
+	    			<p>My name is Tim Barbara. I'm a software developer based in the New York area. I have been working with computers since I was four years old and will continue to do so until human society is overtaken by the machines. I graduated with a degree in computer science from Stevens Institute of Technology in 2015 and am currently seeking a graduate degree in engineering leadership from NJIT.</p>
+                    <p>In all of my work I strive to create a great user experience. You can create a fantastic and powerful piece of software, but if it's not intuitive to use, then nobody will use it. Too often many companies don't listen to their users and design software that doesn't fit the way the users actually work.</p>
+                    <p>In my spare time I like to design games, play games, and restore old cars.</p>
+	    		</article>
+			</section>
+            <div class="push"></div>
 			<footer>
-				Tim Barbara 2016
+                <p>Tim Barbara 2016</p>
 			</footer>
 		</div>
 	</body>

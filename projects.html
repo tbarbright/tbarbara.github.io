@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
 	<head>
 		<title>Tim Barbara</title>
 		<meta charset="utf-8"> 
 		<link rel="stylesheet" type="text/css" href="css/main.css">
-		<link rel="stylesheet" type="text/css" href="css/projects.css">
 		<link rel="stylesheet" type="text/css" href="css/csmb-min.css">
+		<link rel="stylesheet" type="text/css" href="css/projects.css">
 		<!--Google Font--!>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700italic,700,600italic' rel='stylesheet' type='text/css'>
 	</head>
@@ -14,100 +12,129 @@
 	<body>
 		<div class="wrapper">			
 			<section id="profile">		
-			    <h1 id="name">Tim Barbara</h1>
+			    <h1 id="name"><a href="index.html">Tim Barbara</a></h1>
 				<ul id="profile_links">
 					<li><a href="https://github.com/tbarbara" class="csmb github csmb-flat csmb-round">GitHub profile: LinkDude80</a></li>
-					<li><a href="https://bitbucket.org/LinkDude80" class="csmb bitbucket csmb-flat csmb-round">BitBucket profile: LinkDude80</a></li>
-					<li><a href="https://www.linkedin.com/pub/tim-barbara/95/621/a80" class="csmb linkedin csmb-flat csmb-round">LinkedIn</a></li>
+					<li><a href="https://bitbucket.org/tbarbara" class="csmb bitbucket csmb-flat csmb-round">BitBucket profile: LinkDude80</a></li>
+					<li><a href="https://www.linkedin.com/in/tim-barbara-a8062195" class="csmb linkedin csmb-flat csmb-round">LinkedIn</a></li>
 				</ul>
 			</section>
 
-            <ul id="nav">
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="resume.html">Resume</a></li>
-            </ul>
+            <nav id="nav">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html" class="activelink">Projects</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                </ul>
+            </nav>
 
-			<h2>My Projects</h2>
+            <section id="projects">
+			    <h2>My Projects</h2>
 
-            <div style="text-align:center">
-                <img src="img/mrgame.png" class="dot" onclick="currentSlide(1)"> 
-                <img src="img/taylorfit.png" class="dot" onclick="currentSlide(2)">
-                <img src="img/placeholder_calsq.png" class="dot" onclick="currentSlide(3)">
+                <div style="text-align:center">
+                    <img src="img/mrgame.jpg" class="thumb" onclick="currentSlide(1)"> 
+                    <img src="img/taylorfit.png" class="thumb" onclick="currentSlide(2)">
+                    <img src="img/placeholder_calsq.png" class="thumb" onclick="currentSlide(3)">
+                </div>
+
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <img src="img/mrgame_image.jpg" style="width:100%">
+                        <div class="text">
+                            <section id="mrgame">
+                                <h3>Mr. Game!</h3>
+                                <p>	Mr. Game! is a board game I co-developed with a team of four people while I was at Stevens. The original concept began with a simple question. "What is a board game?" Well, most of the time a board game is about taking your piece at point A and getting it to point B. So we drew a single linear path of spaces from A to B. Then we moved on from there, what if point A became point B? What if the goal could change? What if there were multiple goals? What if the goal could be anywhere? What if the goal could be nowhere? How would players react? How does the goal change? Cards? What else can the cards change? The board? The pieces? ...the rules? If the rules are changeable, what happens when two rules seem to conflict with each other? </p>
+                                <p>	That last question led to the creation of the role of Mr. Game. Mr. Game's job as a player is simply to read and interpret the rules. Rules cannot be broken... but perhaps they can be bent and made to do your bidding... Players can attempt to do whatever they want but Mr. Game's word is law. The ever changing landscape of the game ensures that each session will be a unique experience. Mr. Game! challenges players to push the boundaries of what is acceptable within the confines of simple set of rules.</p>
+                                <p>	What kind of Mr. Game will you be? An upholder of law and order? Or a harbinger of chaos and destruction? The only way to know, is to play.</p>
+                            
+                                <h3>Challenges</h3>
+                                <p>	This was an interesting project from a user experience standpoint. We wanted to avoid "information overload" but at the same time clearly explain what the game was about. Many games struggle with this giving players paragraph after paragraph of intricate rules. The rulebook for Mr. Game! is only a few pages long and is full of colorful pictures and clear bullet points. Keeping the rules clear and concise was important because we wanted all players to have a very good understanding of them so they would get ideas on how to push the boundaries.</p>
+                                </p>	Creating a ruleset that was ambiguous enough to allow this kind of experimentation but concrete enough to create a cohesive experience was one of our biggest challenges. We tried many different iterations of the rulebook to varying degrees of success. We wanted to make sure that the game couldn't be broken by bad Mr. Game rulings or malicious players. Earlier in the project everything we tried felt far too restrictive to players or made the rules too complicated. </p>
+                                <p>	After some frustrations we went back to the drawing board and rewrote the whole rulebook. We wanted to pare the rules down to their simplest form. What are the real obvious game breaking loopholes? How do we fix them? We added the worst of these game breakers to the rules, for example a player is expressly disallowed from placing the goal underneath themselves to they win instantly, cannot traverse the null area on the board, and cannot move diagonally or waffle back and forth between two spaces when moving. Most other things that we once considered "game breakers" were left up to the discretion of Mr. Game. </p>
+                                <p>	When we play tested this new iteration we discovered something interesting. The game had developed a sort of self balancing aspect. People don't want to play a broken game. It's not fun. When people try to break the game other players will stop them. The final piece of the puzzle was regulating Mr. Game themselves. What if the arbiter of the rules, tried to break the game? We decided that the best way to combat this was to extend the natural “self balancing” aspect of the game. We added a clause to the rules that said that Mr. Game could be overthrown and replaced if they broke the rules or tried to reverse their own decisions. We didn’t specify how this would happen or exactly what conditions would result in an overthrow. That was left up to the players. To date, no Mr. Game in any game I've witnessed has ever been overthrown. The threat of being overthrown is enough to keep most people from ruining the game for everyone else.</p>
+                                <p>	The removal of many of the more nit picky rules also taught us an important lesson. There is no "wrong way" to play Mr. Game! as long as everyone is having fun. In playtests we watched as players came up with crazy scenarios and loopholes we never would have thought to test for or write rules for. We might have written some of these off as "broken" and written them out of the game but people had a lot of fun with them. Some of the most memorable rounds of the game came out of these crazy rulings and some of those rulings made their way into the "meta" of the game and were adopted by players in subsequent rounds. Mr. Game! is an interesting game because every player puts their own unique spin on it every time they play.</p>
+                                <h3>Team</h3>
+                                <p>Tim Barbara, <a href="http://www.yoshgunn.com/" class="projectlinks">Frank DiCola,</a> <a href="http://www.kennygoff.com/" class="projectlinks">Kenny Goff,</a> and Nick Pagano.</p>
+                                <h3>More</h3>
+                                <p>
+                                    <a href="https://www.whoismrgame.com" class="projectlinks">Website,</a>
+                                    <a href="https://twitter.com/whoismrgame" class="projectlinks"> Twitter,</a>
+                                    <a href="https://www.facebook.com/whoismrgame/" class="projectlinks"> Facebook.</a>
+                                </p>
+                            </section>
+                        </div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <img src="img/taylorfit_image.png" style="width:100%">
+                        <div class="text">
+                            <section id="taylorfit">
+                                <h3>TaylorFit</h3>
+                                <p>While at Stevens I took a software practicum class which gave students hands on experience with "real software projects for real clients." Our project was a piece of software called TaylorFit which had been developed by a Stevens professor for use in engineering classes. TaylorFit is a piece of software which helps a user develop Multivariate Polynomial Regression (MPR) models. These models can provide a mathematical representation of complex data to be used in various engineering, science, and business applications. The original TaylorFit was developed in C++ in the early 90s as a text based application. My team was tasked with updating this program with a modern graphical interface and additional functionality. I returned to TaylorFit again, this time as the project manager, for our Senior Design class. We further developed the program with new capabilities such as cross platform support, standard file import and export, and graphing capabilities. Over the course of these upgrades much of the original software had to be rewritten.</p>
+                                <h3>Challenges</h3>
+                                <p>TaylorFit was not designed with the user experience in mind. It was cumbersome, it was outdated, it was slow, and required specialized knowledge to get it working. When we first encountered the software it wouldn't even compile on modern hardware. We designed an all new user experience from the ground up. We chose to work with QT due to its ease of use and excellent cross platform support. We worked to integrate the functions of the old math engine with the new interface. This was quite the task as the original codebase had zero documentation and no comments throughout. The core math engine was a 3rd party library written in obfuscated C code. We took care the document and refactor the codebase as we worked so future teams who worked on this project would have an easier time starting.</p>
+                                <h3>TaylorFit 2.0 Team</h3>
+                                <p>Tim Barbara, Kris Jordan, Chris Barry, Neal Trischitta, Brandon Schur, Adam Perez, and Mark Fleres.</p>
+                                <h3>TaylorFit 3.0 Team</h3>
+                                <p>Tim Barbara, Chris Barry, Brandon Schur, and Adam Perez</p>
+                                <h3>More</h3>
+                                <p>
+                                    <a href="taylorfit_poster.pdf" class="projectlinks">Project Poster,</a>
+                                    <a href="taylorfit_presentation.pdf" class="projectlinks"> Project Presentation.</a>
+                                </p>
+                            </section>
+                        </div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <img src="img/placeholder_cal.png" style="width:100%">
+                        <div class="text">
+                             <section id="appointment">
+                                <h3>Appointment Scheduler</h3>
+                                <p>I worked with team to design and implement online appointment scheduler for a web programing class project. We designed and implemented MySQL database containing appointment information and a graphical scheduler using fullcalendar.io, JavaScript, and JQuery, and a PHP backend. The scheduler allows employees to create new event with custom forms holding associated questions for customers as well as times an appointment is available. Customers are able to schedule appointments for these events and supply answers to the questions. </p>
+                                <h3>Challenges</h3>
+                                <p>For this project our professor acted as the "CEO" of the company. Our job was to propose a project to him and then cope with any "ridiculous demands" that he made of us as our CEO. The end result was a very large project that we had to implement in a very short amount of time. The whole team was new to web development so we had to learn as we went. Ultimately we completed the project on time to the satisfaction of our "CEO."</p>
+                            </section>
+                        </div>
+                    </div>
+
+                    <!--<a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>-->
+
             </div>
-
-            <div class="slideshow-container">
-                <div class="mySlides fade">
-                    <img src="img/mrgame_image.jpg" style="width:100%">
-                    <div class="text">
-                        <section id="mrgame">
-                            <h3>Mr. Game!</h3>
-                            <p>Mr. Game! is a board game I co-developed with a team of four people while I was at Stevens. The concept arose from a simple question. "What is a board game?" Well, a board game is about taking your piece at point A and getting it to point B. Then we moved on from there, what if point A became point B? What if the goal could change? How would players react? How does the goal change? Cards? What else can the cards change? The board? The pieces? ...the rules? If the rules are changing what happens when two rules seem to conflict with each other? That last question led to the creation of the role of Mr. Game. Mr. Game's job as a player is simply to read and interpret the rules. Mr. Game's word is law. Of course, rules cannot be broken... but perhaps they can be bent... The ever changing landscape of the game ensures that each play though will be a unique experience. Mr. Game! challenges players to push the boundaries of what is acceptable within the confines of the rules, Mr. Game as a player needs to keep everything running smoothly. What kind of Mr. Game will you be? An upholder of law and order? Or a harbinger of chaos? The only way to know, is to play.</p>
-                            <h3>Challenges</h3>
-                            <p>This was an interesting project from a user experience standpoint. We wanted to avoid "information overload" but at the same time clearly explain what the game was about. Many games struggle with this giving players paragraph after paragraph of intricate rules. The rulebook for Mr. Game! is only a few pages long and is full of colorful pictures and clear bullet points. Keeping the rules clear and concise was important because we wanted all players to have a very good understanding of them so they would get ideas on how to push the boundaries. Creating a ruleset that was ambiguous enough to allow this kind of experimentation but concrete enough to create a cohesive experience was one of our biggest goals. </p>
-                            <h3>More</h3>
-                            <li><a href="www.whoismrgame.com">Website</a></li>
-                            <li><a href="https://twitter.com/whoismrgame">Twitter</a></li>
-                            <li><a href="https://www.facebook.com/whoismrgame/">Facebook</a></li>
-                        </section>
-                    </div>
-                </div>
-
-                <div class="mySlides fade">
-                    <img src="img/taylorfit_image.png" style="width:100%">
-                    <div class="text">
-                        <section id="taylorfit">
-                            <h3>TaylorFit</h3>
-                            <p>While at Stevens I took a software practicum class which gave students hands on experience with "real software projects for real clients." Our project was a piece of software called TaylorFit which had been developed by a Stevens professor for use in engineering classes. TaylorFit is a piece of software which helps a user develop Multivariate Polynomial Regression (MPR) models. These models can provide a mathematical representation of complex data to be used in various engineering, science, and business applications. The original TaylorFit was developed in C++ in the early 90s as a text based application. My team was tasked with updating this program with a modern graphical interface and additional functionality. I returned to TaylorFit again, this time as the project manager, for our Senior Design class. We further developed the program with new capabilities such as cross platform support, standard file import and export, and graphing capabilities. Over the course of these upgrades much of the original software had to be rewritten.</p>
-                            <h3>Challenges</h3>
-                            <p>TaylorFit was not designed with the user experience in mind. It was cumbersome, it was outdated, it was slow, and required specialized knowledge to get it working. When we first encountered the software it wouldn't even compile on modern hardware. We designed an all new user experience from the ground up. We chose to work with QT due to its ease of use and excellent cross platform support. We worked to integrate the functions of the old math engine with the new interface. This was quite the task as the original codebase had zero documentation and no comments throughout. The core math engine was a 3rd party library written in obfuscated C code. We took care the document and refactor the codebase as we worked so future teams who worked on this project would have an easier time starting.</p>
-                        </section>
-                    </div>
-                </div>
-
-                <div class="mySlides fade">
-                    <img src="img/placeholder_cal.png" style="width:100%">
-                    <div class="text">
-                         <section id="appointment">
-                            <h3>Appointment Scheduler</h3>
-                            <p>I worked with team to design and implement online appointment scheduler for a web programing class project. We designed and implemented MySQL database containing appointment information and a graphical scheduler using fullcalendar.io, JavaScript, and JQuery, and a PHP backend. The scheduler allows employees to create new event with custom forms holding associated questions for customers as well as times an appointment is available. Customers are able to schedule appointments for these events and supply answers to the questions. </p>
-                            <h3>Challenges</h3>
-                            <p>For this project our professor acted as the "CEO" of the company. Our job was to propose a project to him and then cope with any "ridiculous demands" that he made of us as our CEO. The end result was a very large project that we had to implement in a very short amount of time. The whole team was new to web development so we had to learn as we went. Ultimately we completed the project on time to the satisfaction of our "CEO."</p>
-                        </section>
-                    </div>
-                </div>
-
-                <a class="prev" onclick="plusSlides(-1)">❮</a>
-                <a class="next" onclick="plusSlides(1)">❯</a>
-
-            </div>
+            </section>
 
 		<footer>
-				Tim Barbara 2016
+            <p>Tim Barbara 2016</p>
 		</footer>
 
         <script>
             var slideIndex = 1;
             showSlides(slideIndex);
 
-            function plusSlides(n) {
+            function plusSlides(n) 
+            {
               showSlides(slideIndex += n);
             }
 
-            function currentSlide(n) {
+            function currentSlide(n) 
+            {
               showSlides(slideIndex = n);
             }
 
-            function showSlides(n) {
+            function showSlides(n) 
+            {
               var i;
               var slides = document.getElementsByClassName("mySlides");
               var dots = document.getElementsByClassName("dot");
               if (n > slides.length) {slideIndex = 1}    
               if (n < 1) {slideIndex = slides.length}
-              for (i = 0; i < slides.length; i++) {
+              for (i = 0; i < slides.length; i++) 
+              {
                   slides[i].style.display = "none";  
               }
-              for (i = 0; i < dots.length; i++) {
+              for (i = 0; i < dots.length; i++) 
+              {
                   dots[i].className = dots[i].className.replace(" active", "");
               }
               slides[slideIndex-1].style.display = "block";  
