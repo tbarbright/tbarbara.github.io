@@ -1,0 +1,37 @@
+#about > p
+{
+	float: none;
+}
+
+img
+{
+	float: left;
+	width: 100%;
+	background-color: white;
+}
+
+.info
+{
+	display: inline-block;
+	background-color: white;
+	width: 100%;
+}
+
+.info > p
+{
+	padding: 1em;
+	padding-top: 1.5em;
+}
+
+.info > h2
+{
+    color: green;
+	padding: 1em;
+	padding-top: 1.5em;
+}
+
+.info > h3
+{
+	padding: 1em;
+	padding-top: 1.5em;
+}
