@@ -1,0 +1,636 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+		<meta name="generator" content="Adobe GoLive">
+		<title>TQM Chapter 15</title>
+	</head>
+
+	<body bgcolor="#ffffff">
+		<table width="1212" border="0" cellspacing="0" cellpadding="0" cool gridx="10" gridy="10" height="17188" showgridx showgridy usegridx usegridy>
+			<tr height="10">
+				<td width="3" height="17187" rowspan="46"></td>
+				<td width="7" height="13518" colspan="2" rowspan="38"></td>
+				<td width="480" height="10" colspan="15"></td>
+				<td width="37" height="140" colspan="3" rowspan="3"></td>
+				<td width="23" height="13520" rowspan="39"></td>
+				<td width="11" height="4330" colspan="2" rowspan="16"></td>
+				<td width="650" height="1190" colspan="8" rowspan="5"></td>
+				<td width="1" height="10"><spacer type="block" width="1" height="10"></td>
+			</tr>
+			<tr height="48">
+				<td content csheight="43" width="480" height="48" colspan="15" valign="top" align="left" xpos="10">
+					<center>
+						<font size="1" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="#666666">&copy; Copyright and Design Rights by CIMware USA, Inc., and CIMware Ltd. UK: Hi-Tech. USA and International Advanced Design, Manufacturing and Management with IT Case Studies <a href="http://www.cimwareukandusa.com">http://www.cimwareukandusa.com</a></font></center>
+				</td>
+				<td width="1" height="48"><spacer type="block" width="1" height="48"></td>
+			</tr>
+			<tr height="82">
+				<td width="480" height="82" colspan="15" valign="top" align="left" xpos="10"><img src="images/caseiconsm1help_.jpg" usemap="#caseiconsm1help_bcdfdbb9" border="0" height="69" width="439" name="CaseIconsM2" alt="Help!"></td>
+				<td width="1" height="82"><spacer type="block" width="1" height="82"></td>
+			</tr>
+			<tr height="390">
+				<td width="90" height="390" colspan="8" valign="top" align="left" xpos="10"><img src="images/caseiconsm1introduction.jpg" border="0" height="80" width="76" name="CaseIconsM119" alt="Introduction"></td>
+				<td content csheight="9067" width="427" height="9096" colspan="10" rowspan="26" valign="top" align="left" xpos="100"><font size="3" color="maroon" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><b>Chapter 15: CAD, CAM, CE and Other Software Quality Improvement Issues and Solutions</b></font>
+					<p><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><b>In this Chapter we discuss the following:</b></font></p>
+					<ul>
+						<li><font size="3" color="black" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><a href="#Anchor-49575">The Purpose of this Chapter</a></font>
+						<li><font size="3" color="black" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><a href="#Anchor-47857">Why Do We Need a Total Quality Systems Approach to IT and Software Engineering?</a></font>
+						<li><font size="3" color="black" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><a href="#Anchor-Cars-49575">Main Discussion Points &amp; Activities: Digital, Telematics Cars</a></font>
+						<li><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><a href="#Anchor-11481">Examples of Famous Software Quality Failures: Intel Pentium</a></font>
+						<li><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><a href="#Anchor-35882">Spaceflight is Not Immune to Software Errors</a></font>
+						<li><font size="3" color="black" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><a href="#Anchor-14210">Major Review Questions and Team Project Ideas for Engineering, Computing and Management Science/ Marketing Students</a></font>
+						<li><font size="3" color="black" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><a href="#Anchor-23240">References and Further Reading</a></font>
+					</ul>
+					<ul></ul>
+					<p><font size="3" color="white" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">.</font></p>
+					<p><font size="3" color="maroon" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><b>Purpose<a name="Anchor-49575" id="Anchor-49575"></a></b></font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">The purpose of this Chapter is to offer examples, methods, and validated solutions for </font><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">improving software and IT quality, in general. </font><font size="3" color="black" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">This is essential, since</font><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"> CE, CAD/CAM and other engineering tools are software intensive.</font><font size="3" color="black" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"> If anything goes wrong with a real-world engineering product, process or service the CE engineers can be blamed and taken to court... software 'engineers' usually manage to escape... claiming, that it is 'not us', it is always 'somebody else's system that went wrong...'</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Respectfully, the truth is, that many software and IT products should not be on the market at all. They are that unreliable and bad.</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Since literally every aspect of our lives is affected by software and IT, and the thinking, logic and culture programmed into increasingly 'intelligent' devices by respected, ethical, educated and experienced professionals, as well as by 'clicking engineers' who do not understand what they are actually doing, software, and IT quality is a truly BIG issue, and will be for many, many more years. </font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Globalization of this industry creates even more complex challenges, since all design, including software is cultural, therefore how can we realistically expect, that a bright software engineer in China or India will truly understand the way a US car rental system, the new GM Cadillac, or a gas supply maintenance operation, or a US cell-phone network, or a DVD rental operation in New York City, etc. works... On teh same token, how can a software engineer in California create a system for China, or India, or Europe ? </font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">In order to develop such systems, one needs to live and work with the users and understand all their needs. The core can and should be shared but the logic is in most cases different! This is part of our broader view of CE.</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">The feasible solution is to </font><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">treat software and IT just as any professional engineering challenge, and solve these problems accordingly, based on tested, robust engineering logic, and accurate CE requirements analysis, and <a href="MediaResources/UML.jpg">models</a>, such as UML (Unified Modeling Language). </font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Unfortunately the software and IT community typically does not agree with this, claiming, that their science is only 50 or so years old, whereas recorded engineering science is over 12K years old.... this is true, nevertheless they should even more so adopt professional engineering solutions, since disasters are happening because of software and IT faults every day... The ultimate solution, is that this professional engineering-based approach, and teaching/learning process starts in the school system, at universities and companies teaching IT. Also we should hope, that eventually </font><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">market forces will drive out poor quality software and IT businesses, although there are big monopolies in this industry not willing to make a change...</font></p>
+					<p><font size="3" color="white" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">.</font></p>
+					<p><font size="3" color="maroon" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><b>Why Do We Need a Total Quality Systems Approach to IT and Software Engineering?<a name="Anchor-47857" id="Anchor-47857"></a></b></font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Literally every advanced electro-mechanical product today already has some level of IT and embedded, and/or networked software engineering content, that is critical to the function of such objects, devices and services. </font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">This trend will continue, and with the advancement of wireless networked multimedia (also referred to as telematics), digital mobile / cell phones, and other safety, and mission-critical integrated software engineering solutions it is vital that we all work together on improving software and IT quality.</font></p>
+					<p><font size="3" color="black" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><b>The tragic fact is, that </b></font><font size="3" color="#dc143c" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><b>75-80% of software projects fail</b></font><font size="3" color="#ff00ff" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><b> </b></font><font size="3" color="black" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><b>in the USA and elsewhere, where software is developed... (and this is the 21st Century Folks!)</b></font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">We all know that the software business is in trouble... at present over 75-80 percent of software projects fail! (Ref. Rational, Inc., an IBM company since 2003, published in 1999, 2001, and in 2002). Therefore we need to focus on professional engineering TQM and Six-Sigma methods for software and IT too, including requirements analysis, and total quality modeling methods and tools, using object, and component- oriented software development methods.</font></p>
+					<p><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">As an example, can you imagine redesigning every component and system of an automobile every year? </font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Of course not... despite this the software business is still redesigning many components every time they want to use them... </font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">This is because of the business drivers leading to the compensation of software writers, the rapid change of technology, because of poor quality, poor management, and most importantly lack of comprehensive methods, knowledge, and lack of total quality knowledge!</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">The solution is that software developers have to learn TQM engineering problem solving methods with practical case studies. (Engineering is a 12,050 year plus old profession with good methods and experiences at all levels...) </font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">This is the only way they can begin to apply excellent quality controlled, object oriented principles, such as object reuse, encapsulation, inheritance and others. </font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">To recognize the importance of the object oriented methods based approach we follow in this eBook, please read what they have published in the eWeek magazine, and recognize that the software industry MUST become a professional software engineering industry using sound TQM methods:</font></p>
+					<p><font size="3" color="black" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">&quot;Software programmers hired by FedEX in recent months no longer operate in an environment where they</font><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"> simply write code for customer facing applications and throw it at us after they guess at what the customer needs.</font><font size="3" color="black" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"> They have a better understanding of the customers' needs because they have a more specific understanding of the industry in which they operate. They come out of school [meaning grad school] with the ability to communicate in a nontechnical way and operate as team players.&quot;</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">According to the New Jersey TechNews: </font><font size="3" color="black" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">'Continued growth in purchases (IT) and continued price/ performance improvements mean that there is a growing market for qualified staff. </font><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Skilled workers, who are adaptable, knowledgeable, and can work across multiple disciplines are always in need. </font><font size="3" color="black" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">For example last year it was reported by the ITAA (Information Technology Association of America) that there were over 800,000 unfilled jobs within the IT field in the USA only!.... The use of consultants to design and implement new systems is quite typical, but the need to run, maintain, upgrade and integrate them into business operations and procedures remains the job of an organization's staff.'</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Furthermore, eWeek (USA) states: </font><font size="3" color="black" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">'Networking skills are crucial. Networking experienced the hottest growth, at 24 percent, of any job category, according to the 2002 Salary Guide Survey of 1,650 CEOs. In the 2001 Pay index, salaries </font><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">for networking jobs, specifically engineering and operations jobs, were the two highest growth areas...</font><font size="3" color="black" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"> networking skills will always be hot because they are a crucial ingredient that enterprises need as they continue to build vital business connections... including business-to-business collaborations (B2B) on a global basis... Average Networking IT starting salary: $62, 250 to $87, 000 in December 2001). </font></p>
+					<p><font size="3" color="black" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Who is hiring? ... e-business/ e-commerce B2B companies, financial services, pharmaceutical engineering companies, database sites, health care, government, in particular in systems security areas, the entertainment industry, and others.'</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">IEE News, states:</font><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"> 'The UK is suffering from a computer science brain drain.</font><font size="3" color="black" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"> Industry in the UK and elsewhere (in Europe) are eager to hire talented people. (More:</font><font size="3" color="#006400" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"> <a href="http://www.iee.org/Policy/CSreport">http://www.iee.org/Policy/CSreport</a></font><font size="3" color="black" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">) Employment records are still looking good for new engineering graduates... overall 68.4 % of graduates found work in the UK within six months of graduation. The highest employment rates were for accountancy and civil engineering graduates, followed by IT, business and management studies and media studies...'</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">As a further example, reflecting the state of software and IT quality, Chairman and Chief Software Architect, Bill Gates, issued an internal memo to his staff: </font></p>
+					<p><font size="3" color="#006400" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Every few years I have sent out a memo talking about the highest priority for Microsoft. Two years ago, it was the kickoff of our .NET strategy. Before that, it was several memos about the importance of the Internet to our future and the ways we could make the Internet truly useful for people. Over the last year it has become clear that ensuring .NET is a platform for <b>Trustworthy Computing</b> is more important than any other part of our work. If we don't do this, people simply won't be willing-or able-to take advantage of all the other great work we do. Trustworthy Computing is the highest priority for all the work we are doing. We must lead the industry to a whole new level of Trustworthiness in computing.</font></p>
+					<p><font size="3" color="#006400" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">When we started work on Microsoft .NET more than two years ago, we set a new direction for the company-and articulated a new way to think about our software. Rather than developing standalone applications and Web sites, today we're moving towards smart clients with rich user interfaces interacting with Web services. We're driving the XML Web services standards so that systems from all vendors can share information, while working to make Windows the best client and server for this new era.</font></p>
+					<p><font size="3" color="#006400" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">There is a lot of excitement about what this architecture makes possible. It allows the dreams about e-business that have been hyped over the last few years to become a reality. It enables people to collaborate in new ways, including how they read, communicate, share annotations, analyze information and meet.</font></p>
+					<p><font size="3" color="#006400" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">However, even more important than any of these new capabilities is the fact that it is designed from the ground up to deliver Trustworthy Computing. What I mean by this is that customers will always be able to rely on these systems to be available and to secure their information. Trustworthy Computing is computing that is as available, reliable and secure as electricity, water services and telephony.</font></p>
+					<p><font size="3" color="#006400" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Today, in the developed world, we do not worry about electricity and water services being available. With telephony, we rely both on its availability and its security for conducting highly confidential business transactions without worrying that information about who we call or what we say will be compromised. Computing falls well short of this, ranging from the individual user who isn't willing to add a new application because it might destabilize their system, to a corporation that moves slowly to embrace e-business because today's platforms don't make the grade.</font></p>
+					<p><font size="3" color="#006400" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">The events of last year-from September's terrorist attacks to a number of malicious and highly publicized computer viruses-reminded every one of us how important it is to ensure the integrity and security of our critical infrastructure, whether it's the airlines or computer systems.</font></p>
+					<p><font size="3" color="#006400" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Computing is already an important part of many people's lives. Within ten years, it will be an integral and indispensable part of almost everything we do. Microsoft and the computer industry will only succeed in that world if CIOs, consumers and everyone else sees that Microsoft has created a platform for Trustworthy Computing.</font></p>
+					<p><font size="3" color="#006400" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Every week there are reports of newly discovered security problems in all kinds of software, from individual applications and services to Windows, Linux, Unix and other platforms. We have done a great job of having teams work around the clock to deliver security fixes for any problems that arise. Our responsiveness has been unmatched-but as an industry leader we can and must do better. Our new design approaches need to dramatically reduce the number of such issues that come up in the software that Microsoft, its partners and its customers create. We need to make it automatic for customers to get the benefits of these fixes. Eventually, our software should be so fundamentally secure that customers never even worry about it.</font></p>
+					<p><font size="3" color="#006400" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">No Trustworthy Computing platform exists today. It is only in the context of the basic redesign we have done around .NET that we can achieve this. The key design decisions we made around .NET include the advances we need to deliver on this vision. Visual Studio .NET is the first multi-language tool that is optimized for the creation of secure code, so it is a key foundation element.</font></p>
+					<p><font size="3" color="#006400" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">I've spent the past few months working with Craig Mundie's group and others across the company to define what achieving Trustworthy Computing will entail, and to focus our efforts on building trust into every one of our products and services. Key aspects include:</font></p>
+					<p><font size="3" color="#006400" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><b>Availability:</b> Our products should always be available when our customers need them. System outages should become a thing of the past because of a software architecture that supports redundancy and automatic recovery. Self-management should allow for service resumption without user intervention in almost every case.</font></p>
+					<p><font size="3" color="#006400" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><b>Security:</b> The data our software and services store on behalf of our customers should be protected from harm and used or modified only in appropriate ways. Security models should be easy for developers to understand and build into their applications.</font></p>
+					<p><font size="3" color="#006400" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><b>Privacy:</b> Users should be in control of how their data is used. Policies for information use should be clear to the user. Users should be in control of when and if they receive information to make best use of their time. It should be easy for users to specify appropriate use of their information including controlling the use of email they send.</font></p>
+					<p><font size="3" color="#006400" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Trustworthiness is a much broader concept than security, and winning our customers' trust involves more than just fixing bugs and achieving &quot;five-nines&quot; availability. It's a fundamental challenge that spans the entire computing ecosystem, from individual chips all the way to global Internet services. It's about smart software, services and industry-wide cooperation.</font></p>
+					<p><font size="3" color="#006400" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">There are many changes Microsoft needs to make as a company to ensure and keep our customers' trust at every level-from the way we develop software, to our support efforts, to our operational and business practices. As software has become ever more complex, interdependent and interconnected, our reputation as a company has in turn become more vulnerable. Flaws in a single Microsoft product, service or policy not only affect the quality of our platform and services overall, but also our customers' view of us as a company.</font></p>
+					<p><font size="3" color="#006400" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">In recent months, we've stepped up programs and services that help us create better software and increase security for our customers. Last fall, we launched the Strategic Technology Protection Program, making software like IIS and Windows .NET Server secure by default, and educating our customers on how to get-and stay-secure. The error-reporting features built into Office XP and Windows XP are giving us a clear view of how to raise the level of reliability. The Office team is focused on training and processes that will anticipate and prevent security problems. In December, the Visual Studio .NET team conducted a comprehensive review of every aspect of their product for potential security issues. We will be conducting similarly intensive reviews in the Windows division and throughout the company in the coming months.</font></p>
+					<p><font size="3" color="#006400" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">At the same time, we're in the process of training all our developers in the latest secure coding techniques. We've also published books like &quot;Writing Secure Code,&quot; by Michael Howard and David LeBlanc, which gives all developers the tools they need to build secure software from the ground up. In addition, we must have even more highly trained sales, service and support people, along with offerings such as security assessments and broad security solutions. I encourage everyone at Microsoft to look at what we've done so far and think about how they can contribute.</font></p>
+					<p><font size="3" color="#006400" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">But we need to go much further.</font></p>
+					<p><font size="3" color="#006400" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">In the past, we've made our software and services more compelling for users by adding new features and functionality, and by making our platform richly extensible. We've done a terrific job at that, but all those great features won't matter unless customers trust our software. So now, when we face a choice between adding features and resolving security issues, we need to choose security. Our products should emphasize security right out of the box, and we must constantly refine and improve that security as threats evolve. A good example of this is the changes we made in Outlook to avoid email borne viruses. If we discover a risk that a feature could compromise someone's privacy, that problem gets solved first. If there is any way we can better protect important data and minimize downtime, we should focus on this. These principles should apply at every stage of the development cycle of every kind of software we create, from operating systems and desktop applications to global Web services.</font></p>
+					<p><font size="3" color="#006400" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Going forward, we must develop technologies and policies that help businesses better manage ever larger networks of PCs, servers and other intelligent devices, knowing that their critical business systems are safe from harm. Systems will have to become self-managing and inherently resilient. We need to prepare now for the kind of software that will make this happen, and we must be the kind of company that people can rely on to deliver it.</font></p>
+					<p><font size="3" color="#006400" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">This priority touches on all the software work we do. By delivering on Trustworthy Computing, customers will get dramatically more value out of our advances than they have in the past. The challenge here is one that Microsoft is uniquely suited to solve.</font></p>
+					<p><font size="3" color="#006400" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">More discussion of our vision for Trustworthy Computing is in the internal white paper at &lt;\\itgweb3\news\TrustComp.doc</font></p>
+					<p><font size="3" color="#006400" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Bill </font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">As a further example, the </font><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Standish Group</font><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">, a research organization in Massachusetts, has been conducting an on-going survey since 1993 on software and information technology failures. It is called the 'Chaos Study'.</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">The study is trying to determine the scope of software project failures, the major factors that cause software projects to fail, and the key factors that can reduce project failures. The study involves 365 respondents and represented 8,380 applications. </font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">In 1995, the Standish Group estimated that US development houses will spend 81 billion for cancelled software projects. </font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">They have found the following amazing data:</font></p>
+					<ul>
+						<li><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Only about 16% of the software and IT projects initiated by the responding companies will be completed successfully. (Success here is defined as on-time, on-budget, and covered functionalities for the customer).</font>
+						<li><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">About 53% of the projects were over budget and behind schedule, while 31% were deemed failures (cancelled).</font>
+						<li><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Cost overruns averaged 189% of the original cost estimate for all the projects.</font>
+						<li><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Time overruns averaged 222% of the original time estimate. Only 61% of the originally specified features and functions (requirements) were available on the released project.</font>
+						<li><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Re-starts were common on many of the failed projects</font>
+					</ul>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">The solution is obvious, nevertheless difficult to adopt in an industry, that, with a few exceptions, rejects proven engineering methods and concepts...</font></p>
+					<p><font size="3" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"></font><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><b>As you research and review the eight TQM principles, try to follow our proven methodology, and apply the principles to software engineering and IT as follows:</b></font></p>
+					<ul>
+						<li><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Analyze the software and IT TQM needs</font><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"> and the <a href="CB_LibMoreSelfContObjV3/RankyCORA_TemplV5.xls">requirements.</a></font>
+						<li><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Analyze the actual TQM methods presented</font><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">, find out the core methodologies, the mathematical models, the underlying engineering (and/or other) science foundation. (Many software packages don't work because the programmed mathematics is faulty!)</font>
+						<li><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Analyze the TQM technologies involved</font><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">. (How is science turned into a practical solution/ engineering and/or computing technology? Learn, that science and technology are integrated processes. Software turns science and technology into computer programs. If you don't understand and model science and technology well, you cannot turn it into properly functioning software.)</font>
+						<li><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Analyze and review the actual processes and the way the process flow is integrated.</font><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"> (Follow an object-oriented process analysis method from concept to product. To understand total quality and integration issues is a major challenge for all of us...Software can be complex, just like engineering and science, therefore the problem has to be broken up into manageable chunks of knowledge; these are modules, or objects).</font>
+						<li><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Analyze potential <a href="CB_LibMoreSelfContObjV3/RankyTemplatePFRAver5.xls">failure modes</a>, and alternative solutions. </font><font size="3" color="black" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">(What happens when the software crashes, or calculates something wrong, or inaccurate? Do people die, or suffer? Is property damaged? ... Nerves destroyed: ' IT stress', and others).</font>
+						<li><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Analyze the Total Quality Management aspects of each process, as well as the end product/ service.</font>
+						<li><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Analyze the benefits and the disadvantages</font><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"> of each process/ solution. (If you cannot understand the processes you are coding into software, better don't do it!)</font>
+						<li><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Design alternative TQM methods, processes</font><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"> based on what you have experienced/ seen, and learned.</font>
+						<li><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Design an integrated TQM system</font><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">, based on what you have analyzed. (The web is a great integrator. Software projects should not represent political platform camps, used to fight against each other, whilst the customers are paying for all the bugs, and political issues...)</font>
+						<li><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Work in a multi-disciplinary TQM team</font><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"> and exchange ideas. (Most software engineers work in teams. It needs time to develop trust. Many of them work strange hours, like sleep during the day and work overnight... we don't promote overregulation, just disciplined, professional, ethical, quality work; whatever it takes to achieve this in a software team is OK).</font>
+						<li><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Understand the boundaries of TQM, as applied to software and IT,</font><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"> as well as the tremendous potential of new ideas and developments by working on the cases presented. (Realize that in order to survive and win, you must add quality value, else you and your business will not be around...)</font>
+					</ul>
+					<p></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Pease note, that the subject of Quality Software Engineering, and Quality Systems in IT, is featured in several eBooks in our Case Library, where you can find in-depth analysis and discussion of this very exciting and profitable method, including a variety of real-world industrial and research case studies, software tools, management techniques, and technologies. (Please visit <a href="http://www.cimwareukandusa.com">http://www.cimwareukandusa.com</a>, and then click on the Case Library icon).</font></p>
+					<p><font size="3" color="#fffafa" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">.</font></p>
+					<p><font size="3" color="#fffafa" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">.</font></p>
+					<p></p>
+					<p><font color="maroon" size="3" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b></b></font></p>
+				</td>
+				<td width="1" height="390"><spacer type="block" width="1" height="390"></td>
+			</tr>
+			<tr height="660">
+				<td width="3" height="3630" colspan="3" rowspan="11"></td>
+				<td width="4" height="1341" colspan="2" rowspan="5"></td>
+				<td width="83" height="660" colspan="3" valign="top" align="left" xpos="17"><img src="images/caseiconsm1review.jpg" border="0" height="75" width="72" name="CaseIconsM113" alt="Review"></td>
+				<td width="1" height="660"><spacer type="block" width="1" height="660"></td>
+			</tr>
+			<tr height="20">
+				<td width="3" height="681" rowspan="4"></td>
+				<td width="80" height="20" colspan="2"></td>
+				<td content csheight="153" width="650" height="161" colspan="8" rowspan="2" valign="top" xpos="561"><font size="2" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">The image below illustrates a class-object interaction screen in UML (Unified Modeling Language). UML is a graphical system design language for software system designers. It is platform independent and can create code automatically, if the logic is provided by the software engineers. UML could be a good alternative for software engineers to create better quality CE software, because it is a model-based solution. </font>
+					<p><font size="2" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Question: Can you imagine a car to be designed and built without engineering design drawings? (Silly question, agree...) Guess what, many software packages are just put together by code-writers without any overall model, or serious system design... hence the bugs we all 'enjoy'... do you think this should be the practice?</font></p>
+					<p><font size="2" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">(Just click the </font><font size="2" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">image</font><font size="2" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"> below to see the screen print of the UML model segment in detail.)</font></p>
+				</td>
+				<td width="1" height="20"><spacer type="block" width="1" height="20"></td>
+			</tr>
+			<tr height="141">
+				<td width="80" height="141" colspan="2" valign="top" align="left" xpos="20"><img src="images/caseiconsm1great__idea_1.jpg" border="0" height="58" width="58" name="CaseIconsM17" alt="Great idea!"></td>
+				<td width="1" height="141"><spacer type="block" width="1" height="141"></td>
+			</tr>
+			<tr height="259">
+				<td width="1" height="520" rowspan="2"></td>
+				<td width="79" height="259"></td>
+				<td width="4" height="1353" rowspan="5"></td>
+				<td width="646" height="520" colspan="7" rowspan="2" valign="top" align="left" xpos="565"><a href="MediaResources/UML.jpg"><img src="MediaResources/UML.jpg" alt="" width="646" height="520" border="0"></a></td>
+				<td width="1" height="259"><spacer type="block" width="1" height="259"></td>
+			</tr>
+			<tr height="261">
+				<td width="79" height="261" valign="top" align="left" xpos="21"><img src="images/caseiconsm1study.jpg" border="0" height="84" width="68" name="CaseIconsM121" alt="Study"></td>
+				<td width="1" height="261"><spacer type="block" width="1" height="261"></td>
+			</tr>
+			<tr height="639">
+				<td width="87" height="639" colspan="5" valign="top" align="left" xpos="13"><img src="images/caseiconsm1investigate.jpg" border="0" height="92" width="77" name="CaseIconsM114" alt="Investigate"></td>
+				<td width="646" height="639" colspan="7"></td>
+				<td width="1" height="639"><spacer type="block" width="1" height="639"></td>
+			</tr>
+			<tr height="100">
+				<td width="7" height="1650" colspan="3" rowspan="5"></td>
+				<td width="80" height="100" colspan="2"></td>
+				<td content csheight="183" width="646" height="194" colspan="7" rowspan="2" valign="top" xpos="565">
+					<p><font size="2" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">The software industry can only be saved by true engineers, not just software engineers. Since we all use CE and other types of software, we must help the IT folks with our engineering skills to produce better software systems... <a href="MediaResources/BMWOxfChngCulture.mov">WINGS</a> is a good example how to move forward. Engineering has a proven methods basis that worked for pyramids 10050 BC, and most recently 3500BC, and even more recently during th eindustrial revolution... therefore software 'engineers' with their 40-50 years of history should listen to us, and we MUST work together as professional teams.</font></p>
+					<p><font size="2" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Question: Will software writers, code-writers and self-taught software plumbing engineers listen? Probably not... but the market will... and therefore they'll be forced out with the poor quality staff, as it is already visible in the operating system market...</font></p>
+					<p><font size="2" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">(Just click the </font><font size="2" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">image</font><font size="2" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"> below to see the screen print of the UML model segment in detail.)</font></p>
+				</td>
+				<td width="1" height="100"><spacer type="block" width="1" height="100"></td>
+			</tr>
+			<tr height="94">
+				<td width="80" height="94" colspan="2" valign="top" align="left" xpos="20"><img src="images/caseiconsm1review.jpg" border="0" height="75" width="72" name="CaseIconsM134" alt="Review"></td>
+				<td width="1" height="94"><spacer type="block" width="1" height="94"></td>
+			</tr>
+			<tr height="425">
+				<td width="80" height="425" colspan="2"></td>
+				<td width="650" height="955" colspan="8" rowspan="2" valign="top" align="left" xpos="561"><a href="MediaResources/MiniOxf012WInGs.jpg"><img src="MediaResources/MiniOxf012WInGs.jpg" alt="" width="650" height="476" border="0"></a></td>
+				<td width="1" height="425"><spacer type="block" width="1" height="425"></td>
+			</tr>
+			<tr height="530">
+				<td width="80" height="530" colspan="2" valign="top" align="left" xpos="20"><img src="images/caseiconsm1focus___.jpg" border="0" height="65" width="69" name="CaseIconsM118" alt="Focus ! "></td>
+				<td width="1" height="530"><spacer type="block" width="1" height="530"></td>
+			</tr>
+			<tr height="501">
+				<td width="80" height="501" colspan="2" valign="top" align="left" xpos="20"><img src="images/caseiconsm1image3.jpg" border="0" height="41" width="60" name="CaseIconsM117" alt=""></td>
+				<td width="433" height="671" colspan="6" rowspan="2"></td>
+				<td width="1" height="811" rowspan="3"></td>
+				<td width="216" height="13528" rowspan="32"></td>
+				<td width="1" height="501"><spacer type="block" width="1" height="501"></td>
+			</tr>
+			<tr height="170">
+				<td width="90" height="170" colspan="8" valign="top" align="left" xpos="10"><img src="images/caseiconsm1review.jpg" border="0" height="75" width="72" name="CaseIconsM135" alt="Review"></td>
+				<td width="1" height="170"><spacer type="block" width="1" height="170"></td>
+			</tr>
+			<tr height="140">
+				<td width="90" height="1010" colspan="8" rowspan="2"></td>
+				<td content csheight="127" width="444" height="140" colspan="8" valign="top" xpos="550"><font size="2" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">This software error message comes up in MS-Word on an Apple Macintosh when a small 250 Kbyte file is trying to be saved on a 500 Gigabyte almost empty disk, with 4 Giga memory in the machine...The error message is obviously false... It does not mean anything and illustrates the quality state of the software industry when one company writes software for another platform... Apple runs ultra reliable UNIX-based OSX, and MS the well known Windows, that we all know...</font></td>
+				<td width="1" height="140"><spacer type="block" width="1" height="140"></td>
+			</tr>
+			<tr height="870">
+				<td width="1" height="1150" rowspan="2"></td>
+				<td width="444" height="870" colspan="8" valign="top" align="left" xpos="551"><img src="MoreMedia2/AnotherMS-BugInWord.jpg" alt="" width="444" height="200" border="0"></td>
+				<td width="1" height="870"><spacer type="block" width="1" height="870"></td>
+			</tr>
+			<tr height="280">
+				<td width="90" height="280" colspan="8" valign="top" align="left" xpos="10"><img src="images/caseiconsm1focus___.jpg" border="0" height="65" width="69" name="CaseIconsM136" alt="Focus ! "></td>
+				<td width="444" height="280" colspan="8"></td>
+				<td width="1" height="280"><spacer type="block" width="1" height="280"></td>
+			</tr>
+			<tr height="104">
+				<td width="90" height="104" colspan="8"></td>
+				<td content csheight="107" width="445" height="134" colspan="9" rowspan="2" valign="top" xpos="550"><font size="2" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">The broader acceptance and understanding of market facing systems will eventually pull us out of the current, poor quality software crisis... it might take a long time though, and lots of politics and wasted Dollars, Yens, Euros, etc. too...</font>
+					<p><font size="2" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">(Just click on the </font><font size="2" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">image</font><font size="2" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"> below to see it in full size.)</font></p>
+				</td>
+				<td width="1" height="104"><spacer type="block" width="1" height="104"></td>
+			</tr>
+			<tr height="30">
+				<td width="90" height="249" colspan="8" rowspan="2" valign="top" align="left" xpos="10"><img src="images/caseiconsm1review.jpg" border="0" height="75" width="72" name="CaseIconsM137" alt="Review"></td>
+				<td width="1" height="30"><spacer type="block" width="1" height="30"></td>
+			</tr>
+			<tr height="219">
+				<td width="1" height="7766" rowspan="18"></td>
+				<td width="444" height="1160" colspan="8" rowspan="2" valign="top" align="left" xpos="551"><a href="MoreCEMedia/MarketFacingSys.jpg"><img src="MoreMedia2/MarketFacingSys.jpg" alt="" width="444" height="370" border="0"></a></td>
+				<td width="1" height="219"><spacer type="block" width="1" height="219"></td>
+			</tr>
+			<tr height="941">
+				<td width="10" height="941" colspan="6"></td>
+				<td width="80" height="941" colspan="2" valign="top" align="left" xpos="20"><img src="images/caseiconsm1focus___.jpg" border="0" height="65" width="69" name="CaseIconsM120" alt="Focus ! "></td>
+				<td width="1" height="941"><spacer type="block" width="1" height="941"></td>
+			</tr>
+			<tr height="489">
+				<td width="90" height="489" colspan="8" valign="top" align="left" xpos="10"><img src="images/caseiconsm1great__idea_1.jpg" border="0" height="58" width="58" name="CaseIconsM18" alt="Great idea!"></td>
+				<td width="14" height="6606" colspan="2" rowspan="16"></td>
+				<td width="354" height="489" colspan="4"></td>
+				<td width="76" height="10273" colspan="2" rowspan="23"></td>
+				<td width="1" height="489"><spacer type="block" width="1" height="489"></td>
+			</tr>
+			<tr height="10">
+				<td width="90" height="10" colspan="8"></td>
+				<td content csheight="1833" width="354" height="1833" colspan="4" rowspan="5" valign="top" align="left" xpos="565">
+					<p><font size="3" color="maroon" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><b>Main Discussion Points &amp; Activities: Digital, Telematics <a name="Anchor-Cars-49575" id="Anchor-Cars-49575"></a>Cars as a CE Design Example<a name="Anchor-49575" id="Anchor-49575"></a><a name="Anchor-47857" id="Anchor-47857"></a></b></font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">New automotive products are loaded with real-time, embedded, mission critical software... and this trend is rapidly growing in terms of increasing computational speed, and reducing physical size.</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">As an example, we know, that due to market pressures, within 10 years the automobile industry will have to produce a brand new automobile within 24 months; and within 20 years, due to better integration, better design tools, and advanced, flexible manufacturing and assembly methods, this time will shrink to just over 12 months. </font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">As a conclusion of this, </font><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">the digital telematics car, full of software, as well as the related electronic and software support systems, have to rely on fail-safe sensor-to-software components and quality integration</font><font size="3" color="black" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">, that can be customized in a short period of time.</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">In order to understand, and then control the automotive business, we need to </font><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">model and simulate our factories and cars</font><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">, using robust analytical, quantitative, and computational methods. </font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Furthermore, our marketing, design and manufacturing / assembly / quality control and software engineers and managers should focus on finding out </font><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">what the customers (and the cars) really need and want</font><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">, and then implement them in such a way, that drivers and passengers can customize the offered simple as well as complex features in an EASY way... </font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">In this sense, </font><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">the digital telematics car should become part of the digital home, and the &lsquo;digital hub&rsquo;</font><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">, as well as the digital factory, where it was conceived, within an object-linked, distributed, and networked system.</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Last but no least, the message to the automotive design, manufacturing and education community is clear: integrate disciplines, don&rsquo;t treat the world as isolated islands of pockets of knowledge.</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Because </font><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">everything relates to everything</font><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">, we need to model systems, and then select/ develop skills, resources and new knowledge to tackle the challenges concurrently.</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">In order to help you to summarize, what we have attempted to communicate in this Chapter, consider the following open-ended questions and challenges:</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><b>QS.1:</b> Which are the critical software / IT TQM related requirements and concerns you need to analyze when specifying / designing a new telematics automobile?</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><b>QS.2:</b> What are the software / IT related process parameters and the typical values of the parameters? What are their limitations? How can you find reliable data to accomplish this study?</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><b>QS.3:</b> What kinds of devices and then software / IT related architectures can you specify, and why?</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><b>QS.4:</b> What is the scope of the digital, telematics car? (Give examples).</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><b>QS.5:</b> What is the likely cost, and savings of telematics-enabled cars?... and what is the ROI (Return on investment)?</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><b>QS.6:</b> What functionality would you include in a low-end, middle-tear, and top-of the line telematics software package? Explain why?</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><b>QS.7:</b> What software platform would you chose to develop telematics solutions? Explain why?</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><b>QS.8:</b> What are the major process steps, in the process flow, from concept to prototype, when developing a telematics architecture and solution?</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Following a total quality approach, analyze the software / IT related <a href="CB_LibMoreSelfContObjV3/RankyCORA_TemplV5.xls">requirements</a> and the <a href="CB_LibMoreSelfContObjV3/RankyTemplatePFRAver5.xls">process failure modes</a> for the discussed processes, using our spreadsheet templates.</font></p>
+					<p><font color="white">.</font></p>
+					<p><font color="white">.</font></p>
+					<p></p>
+				</td>
+				<td width="1" height="10"><spacer type="block" width="1" height="10"></td>
+			</tr>
+			<tr height="410">
+				<td width="90" height="410" colspan="8" valign="top" align="left" xpos="10"><img src="images/caseiconsm1investigate.jpg" border="0" height="92" width="77" name="CaseIconsM115" alt="Investigate"></td>
+				<td width="1" height="410"><spacer type="block" width="1" height="410"></td>
+			</tr>
+			<tr height="420">
+				<td width="90" height="420" colspan="8" valign="top" align="left" xpos="10"><img src="images/caseiconsm1focus___.jpg" border="0" height="65" width="69" name="CaseIconsM122" alt="Focus ! "></td>
+				<td width="1" height="420"><spacer type="block" width="1" height="420"></td>
+			</tr>
+			<tr height="877">
+				<td width="90" height="877" colspan="8" valign="top" align="left" xpos="10"><img src="images/caseiconsm1focus___.jpg" border="0" height="65" width="69" name="CaseIconsM123" alt="Focus ! "></td>
+				<td width="1" height="877"><spacer type="block" width="1" height="877"></td>
+			</tr>
+			<tr height="116">
+				<td width="4" height="953" colspan="4" rowspan="2"></td>
+				<td width="86" height="116" colspan="4" valign="top" align="left" xpos="14"><img src="images/caseiconsm1have__a__break.jpg" usemap="#caseiconsm1have__a__breakbcd5420a" border="0" height="80" width="68" name="CaseIconsM125" alt="Have a Break"></td>
+				<td width="1" height="116"><spacer type="block" width="1" height="116"></td>
+			</tr>
+			<tr height="837">
+				<td width="7" height="837" colspan="3"></td>
+				<td width="79" height="837" valign="top" align="left" xpos="21"><img src="images/caseiconsm1study.jpg" border="0" height="84" width="68" name="CaseIconsM124" alt="Study"></td>
+				<td width="3" height="4444" rowspan="11"></td>
+				<td content csheight="1921" width="417" height="1944" colspan="8" rowspan="3" valign="top" align="left" xpos="103"><font size="3" color="maroon" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><b>Examples of Famous Software Quality Failures: Intel Pentium<a name="Anchor-11481" id="Anchor-11481"></a></b></font>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">On April 11, 1997, Robert Collins, an Intel critic and author of the Intel Secrets page, introduced a bug in the floating point unit (FPU) of the Pentium II and the Pentium Pro processors. He called the bug Dan-0411, and it is also known as the Pentium II and Pentium Pro FPU bug or the flag erratum (as it is referenced by Intel).</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">This bug occurs with operations that convert floating point numbers into integers. </font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Floating point numbers are stored in an 80-bit format, while integers are stored in 16-bits (for short integer) and 32-bits (for long integers). Sometimes, converting an 80-bit floating point number into an integer on the Pentium II and the Pentium Pro produces the Dan-0411 bug. </font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">This happens when the converted floating point number won't fit into the smaller integer format. According to Intel's Flag Erratum Technical Description site, the erratum occurs only when the FIST[P] instruction is either a 16- or 32-bit operation; either the 'to nearest', 'to zero' or 'up' rounding modes are being used; the sign bit of the floating-point operand is negative; and the floating-point operand being converted is significantly more negative than can be described by the integer size being targeted.</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">When the operand is large enough that it would not fit into the target data size the processor is supposed to do the following:</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">When invalid operation exception is masked: </font></p>
+					<ul>
+						<li><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Return the MAXNEG value to memory.</font>
+						<li><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Set the IE (Invalid Operation) bit in the Floating Point status word to flag the overflow.</font>
+						<li><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Do not set the PE (precision error) bit the Floating Point status word.</font>
+					</ul>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">When invalid operation exception is unmasked:</font></p>
+					<ul>
+						<li><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Do not return a result to memory. Keep the original operand intact on the stack.</font>
+						<li><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Set the IE (Invalid Operation) bit in the Floating Point status word to flag the overflow.</font>
+						<li><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Do not set the PE (precision error) bit the Floating Point status word.</font>
+						<li><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Vector to the user numeric exception handler.</font>
+					</ul>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">However, in the case that the operand is large enough that it would not fit into the target data size, the processor responds with returning the MAXNEG value to memory; not setting the IE (Invalid Operation) bit in the Floating Point status word to flag the use of an invalid operand; setting the PE (precision error) bit the Floating Point status word; not invoking an exception handler; and in the case of a FISTP instruction the Operand will have been popped from the floating point stack (Flag Erratum Technical Description).</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">The good news was, that the chance of this bug occuring is 1 in 8.6 billion, when storing 16-bit integers, and 1 in 562,950 billion, when storing 32-bit integers. </font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">The bug was not found in the Pentium and the Pentium MMX processors. </font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">When talking about the bug Collins gives an interesting analogy about a launch failure of the Ariane 5 rocket, which happened because a floating point to integer conversion overflowed and the overflow was not handled right. However, the Pentium II and Pentium Pro FPU bug was found to be minor. </font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Most PC applications, such as word processors, data bases, most spreadsheets, and most games, do not use floating point math and can not be affected by the bug. </font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Further, most of the software vendors, such as Microsoft, Oracle, IBM, Netscape, and others, have indicated that the bug does not affect their products. </font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Intel has also suggested the following workarounds to avoid the occurence of the bug: </font></p>
+					<ul>
+						<li><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Range checking performed prior to execution of the FIST[P] instruction will prevent the overflow condition from occurring, and may already be implemented as a standard coding style.</font>
+						<li><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Software can use the presence of MAXNEG in the result integer to indicate that an out of range conversion may have occurred.</font>
+						<li><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Based on the knowledge that numbers capable of triggering this erratum have one of two properties (1) they have a fractional component OR (2) they are larger than the maximum signed 64 bit integer size.</font>
+						<li><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">A combination of three instructions can be used in place of either a FISTP16 or a FISTP32 instruction that will allow the above errata to be worked around.</font>
+					</ul>
+					<p><font size="3" color="white" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">.</font></p>
+					<p><font size="3" color="white" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">.</font></p>
+					<p></p>
+					<p></p>
+				</td>
+				<td width="7" height="4284" rowspan="10"></td>
+				<td width="169" height="4284" rowspan="10"></td>
+				<td width="19" height="4444" rowspan="11"></td>
+				<td width="105" height="7280" rowspan="14"></td>
+				<td width="61" height="7951" rowspan="17"></td>
+				<td width="1" height="837"><spacer type="block" width="1" height="837"></td>
+			</tr>
+			<tr height="930">
+				<td width="90" height="930" colspan="8" valign="top" align="left" xpos="10"><img src="images/caseiconsm1focus___.jpg" border="0" height="65" width="69" name="CaseIconsM126" alt="Focus ! "></td>
+				<td width="1" height="930"><spacer type="block" width="1" height="930"></td>
+			</tr>
+			<tr height="177">
+				<td width="90" height="177" colspan="8" valign="top" align="left" xpos="10"><img src="images/caseiconsm1investigate.jpg" border="0" height="92" width="77" name="CaseIconsM116" alt="Investigate"></td>
+				<td width="1" height="177"><spacer type="block" width="1" height="177"></td>
+			</tr>
+			<tr height="4">
+				<td width="4" height="653" colspan="4" rowspan="2"></td>
+				<td width="86" height="4" colspan="4"></td>
+				<td width="1" height="2500" rowspan="8"></td>
+				<td content csheight="2329" width="416" height="2338" colspan="7" rowspan="6" valign="top" align="left" xpos="104"><font size="3" color="maroon" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><b>Spaceflight is Not Immune to Software Errors<a name="Anchor-35882" id="Anchor-35882"></a></b></font>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">According to th eofficial report, published by Inquiry Board (The Chairman of the Board: Prof. J. L. LIONS) on 4 June 1996, the maiden flight of the Ariane 5 launcher ended in a failure. </font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Only about 40 seconds after initiation of the flight sequence, at an altitude of about 3700 m, the launcher veered off its flight path, broke up and exploded. </font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Engineers from the Ariane 5 project teams of CNES and Industry immediately started to investigate the failure. Although the failure was due to a systematic software design error, mechanisms can be introduced to mitigate this type of problem. </font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">For example the computers within the SRIs could have continued to provide their best estimates of the required attitude information. There is reason for concern, that a software exception should be allowed, or even required, to cause a processor to halt while handling mission-critical equipment. </font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Indeed, the loss of a proper software function is hazardous because the same software runs in both SRI units. In the case of Ariane 501, this resulted in the switch-off of two still healthy critical units of equipment.</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">The original requirement acccounting for the continued operation of the alignment software after lift-off was brought forward more than 10 years ago for the earlier models of Ariane, in order to cope with the rather unlikely event of a hold in the count-down e.g. between - 9 seconds, when flight mode starts in the SRI of Ariane 4, and - 5 seconds when certain events are initiated in the launcher which take several hours to reset. </font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">The period selected for this continued alignment operation, 50 seconds after the start of flight mode, was based on the time needed for the ground equipment to resume full control of the launcher in the event of a hold.</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">This special feature made it possible with the earlier versions of Ariane, to restart the count- down without waiting for normal alignment, which takes 45 minutes or more, so that a short launch window could still be used. In fact, this feature was used once, in 1989 on Flight 33.</font></p>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">Based on the extensive documentation and data on the Ariane 501 failure made available to the Board, the following chain of events, their inter-relations and causes have been established, starting with the destruction of the launcher and tracing back in time towards the primary cause.</font></p>
+					<ul>
+						<li><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">The launcher started to disintegrate at about H0 + 39 seconds because of high aerodynamic loads due to an angle of attack of more than 20 degrees that led to separation of the boosters from the main stage, in turn triggering the self-destruct system of the launcher.</font>
+						<li><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">This angle of attack was caused by full nozzle deflections of the solid boosters and the Vulcain main engine.</font>
+						<li><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">These nozzle deflections were commanded by the On-Board Computer (OBC) software on the basis of data transmitted by the active Inertial Reference System (SRI 2). Part of these data at that time did not contain proper flight data, but showed a diagnostic bit pattern of the computer of the SRI 2, which was interpreted as flight data.</font>
+						<li><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">The reason why the active SRI 2 did not send correct attitude data was that the unit had declared a failure due to a software exception.</font>
+						<li><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">The OBC could not switch to the back-up SRI 1 because that unit had already ceased to function during the previous data cycle (72 milliseconds period) for the same reason as SRI 2.</font>
+						<li><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">The internal SRI software exception was caused during execution of a data conversion from 64-bit floating point to 16-bit signed integer value.The floating point number which was converted had a value greater than what could be represented by a 16-bit signed integer. This resulted in an Operand Error. The data conversion instructions (in Ada code) were not protected from causing an Operand Error, although other conversions of comparable variables in the same place in the code were protected</font>
+						<li><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">The error occurred in a part of the software that only performs alignment of the strap-down inertial platform. This software module computes meaningful results only before lift-off. As soon as the launcher lifts off, this function serves no purpose.</font>
+						<li><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">The alignment function is operative for 50 seconds after starting of the Flight Mode of the SRIs which occurs at H0 - 3 seconds for Ariane 5. Consequently, when lift-off occurs, the function continues for approx. 40 seconds of flight. This time sequence is based on a requirement of Ariane 4 and is not required for Ariane 5</font>
+						<li><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">The Operand Error occurred due to an unexpected high value of an internal alignment function result called BH, Horizontal Bias, related to the horizontal velocity sensed by the platform. This value is calculated as an indicator for alignment precision over time</font>
+						<li><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">The value of BH was much higher than expected because the early part of the trajectory of Ariane 5 differs from that of Ariane 4 and results in considerably higher horizontal velocity values</font>
+					</ul>
+					<p><font size="3" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">The several hundred pages long Report, amongst others, concluded the following:</font></p>
+					<p><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">....The failure of the Ariane 501 was caused by the complete loss of guidance and attitude information 37 seconds after start of the main engine ignition sequence (30 seconds after lift- off). This loss of information was due to specification and design errors in the software of the inertial reference system.</font></p>
+					<p><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">The extensive reviews and tests carried out during the Ariane 5 Development Programme did not include adequate analysis and testing of the inertial reference system or of the complete flight control system, which could have detected the potential failure...</font></p>
+					<p><font size="3" color="#f5fffa" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">.</font></p>
+					<p><font size="3" color="#f5fffa" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">.</font></p>
+				</td>
+				<td width="1" height="4"><spacer type="block" width="1" height="4"></td>
+			</tr>
+			<tr height="649">
+				<td width="86" height="649" colspan="4" valign="top" align="left" xpos="14"><img src="images/caseiconsm1study.jpg" border="0" height="84" width="68" name="CaseIconsM127" alt="Study"></td>
+				<td width="1" height="649"><spacer type="block" width="1" height="649"></td>
+			</tr>
+			<tr height="870">
+				<td width="90" height="870" colspan="8" valign="top" align="left" xpos="10"><img src="images/caseiconsm1investigate.jpg" border="0" height="92" width="77" name="CaseIconsM130" alt="Investigate"></td>
+				<td width="1" height="870"><spacer type="block" width="1" height="870"></td>
+			</tr>
+			<tr height="290">
+				<td width="3" height="815" colspan="3" rowspan="3"></td>
+				<td width="7" height="647" colspan="3" rowspan="2"></td>
+				<td width="80" height="290" colspan="2" valign="top" align="left" xpos="20"><img src="images/caseiconsm1focus___.jpg" border="0" height="65" width="69" name="CaseIconsM131" alt="Focus ! "></td>
+				<td width="1" height="290"><spacer type="block" width="1" height="290"></td>
+			</tr>
+			<tr height="357">
+				<td width="80" height="357" colspan="2" valign="top" align="left" xpos="20"><img src="images/caseiconsm1image3.jpg" border="0" height="41" width="60" name="CaseIconsM132" alt=""></td>
+				<td width="1" height="357"><spacer type="block" width="1" height="357"></td>
+			</tr>
+			<tr height="168">
+				<td width="87" height="168" colspan="5" valign="top" align="left" xpos="13"><img src="images/caseiconsm1have_a__break.jpg" usemap="#caseiconsm1have_a__breakbcd54265" border="0" height="71" width="79" name="CaseIconsM133" alt="Have a Break"></td>
+				<td width="1" height="168"><spacer type="block" width="1" height="168"></td>
+			</tr>
+			<tr height="2">
+				<td width="97" height="162" colspan="10" rowspan="2" valign="top" align="left" xpos="3"><img src="images/caseiconsm1major_review.jpg" border="0" height="103" width="93" name="CaseIconsM111" alt="Major Review"></td>
+				<td width="6" height="162" rowspan="2"></td>
+				<td width="410" height="2" colspan="6"></td>
+				<td width="1" height="2"><spacer type="block" width="1" height="2"></td>
+			</tr>
+			<tr height="160">
+				<td content csheight="150" width="624" height="160" colspan="12" valign="top" align="left" xpos="110"><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="maroon" size="4"><b>Major Review Questions and Team Project Ideas for Engineering, Computing and Management Science/ Marketing Students<a name="Anchor-14210" id="Anchor-14210"></a></b></font>
+					<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">(Please make sure that you follow our proven assignment / project </font><a href="CaseDocu.html"><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="blue">documentation guidelines</font></a><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">) when you develop your reports / presentations).</font></p>
+					<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="white">.</font></p>
+				</td>
+				<td width="1" height="160"><spacer type="block" width="1" height="160"></td>
+			</tr>
+			<tr height="2680">
+				<td width="6" height="3507" rowspan="6"></td>
+				<td width="2" height="3300" colspan="2" rowspan="4"></td>
+				<td content csheight="2669" width="358" height="2680" colspan="12" valign="top" align="left" xpos="11"><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="#008b8b"><b>You are most welcome</b></font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black"> to review this Chapter again, scroll up and down this page, as well as enjoy the media resources used to explain the challenges and solutions.</font>
+					<ul>
+						<li><font size="3" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="#ff4500"><b>Analyze your CE Software TQM needs </b></font><font size="3" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">by using our generic <a href="CB_LibMoreSelfContObjV3/RankyCORA_TemplV5.xls">Requirements Analysis Spreadsheet Template</a> to perform formal user requirements / needs analysis.</font>
+						<li><font size="3" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">What are the potential </font><font size="3" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="#ff4500"><b>quality failure risks</b></font><font size="3" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"> of the proposed processes? (Use our <a href="CB_LibMoreSelfContObjV3/RankyTemplatePFRAver5.xls">Process-oriented Failure Risk Analysis Spreadsheet Template</a> to perform this task formally). </font>
+						<li><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><b>Project / Process Modeling Templates: </b></font><font size="3" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">In order to help you to draw CE Software TQM project management process lifecycle, affinity, project management quality, and other useful diagrams, using our object-oriented </font><font size="3" color="#ff4500" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">CIMpgr Process Modeling, Analysis &amp; Design Method, </font><font size="3" color="black" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">with links to the UML methodology, widely used in the professional IT project management world, we offer ready-to-use </font><font size="3" color="#ff4500" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">templates</font><font size="3" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"> for both PC and Mac users, in native, as well as XML formats. These templates can be further edited, modified and developed as required by you, using excellent applications, such as OmniGraffle Pro for the Mac, or Visio for the PC. (Note, that these application software packages are NOT included in this eBook program, nevertheless can be accessed over the web from their developers). Please look up our template files in our '<b>ProcModelTemplates</b>' directory, in this open source eBook. (All Trademarks are Acknowledged.)</font>
+						<li><font size="3" color="#008b8b" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><b>Other CE Software TQM Graphical Templates: </b></font><font size="3" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">In order to help you to draw</font><font size="3" color="#ff4500" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"> TQM Graphical Models,</font><font size="3" color="black" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"> we offer ready-to-use </font><font size="3" color="#ff4500" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">templates</font><font size="3" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"> for both PC and Mac users, in native, as well as XML formats. These templates can be further edited, modified and developed as required by you, using excellent applications, such as OmniGraffle Pro for the Mac, or Visio for the PC. (Note, that these application software packages are NOT included in this eBook program, nevertheless can be accessed over the web from their developers). Please look up our template files in our '<b>TQM_GraphicTemplates</b>' directory, in this open source eBook. (All Trademarks are Acknowledged.)</font>
+						<li><font size="3" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="#ff4500"><b>Design TQM questions</b></font><font size="3" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">, that cover the discussed material, and evaluate your team's performance using our <a href="CB_LibMoreSelfContObjV3/Ranky1Q4AevaluationV3.xls">Evaluation Spreadsheet Template</a>.</font>
+					</ul>
+					<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="#008b8b"><b>If you are an engineering/ science student</b></font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black"> make sure you understand and document the following:</font></p>
+					<ul>
+						<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">What are the analytical / mathematical/ material science aspects of the illustrated </font><font size="3" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">CE Software </font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">TQM challenges and solutions? Upon what scientific principles do they operate?</font>
+						<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">What are the major </font><font size="3" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">CE Software </font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">TQM processes that make the machines / services operate as illustrated? (Create an object-oriented process model showing how objects / modules interact with each other). </font>
+						<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">How are these processes integrated and controlled from a quality perspective? What are the process parameters and the limitations? How can you measure the process parameters, and then quality control them?</font>
+						<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">What are the major </font><font size="3" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">CE Software </font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">TQM application areas of the machines/ processes discussed in this case?</font>
+						<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">How do you see the future of quality designs, from a concurrent product/ process, or in other words, from a modular, reusable-component design point of view?</font>
+						<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">As a </font><font size="3" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">CE Software </font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">TQM manager in charge, how would you assure, that quality is designed into the product / process / service?</font>
+					</ul>
+					<p><b><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="#008b8b">If you are a computer science/ computer engineering student</font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black"> </font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="#008b8b">focus on the quality aspects of software</font></b><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black"> of the machines and/ or processes / services illustrated. </font></p>
+					<ul>
+						<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">On the basis of object oriented process models try to develop a software architecture that could make the </font><font color="black" size="3" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">illustrated devices / processes work without any crashes, and software bugs.</font>
+						<li><font size="3" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Try to create the object/ class diagram of a digital communication-enabled product, linked to a digital service model, controlling and operating devices (on-site, or remotely) following CE/TQM principles.</font>
+						<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">Try to come up with CE/TQM product / service operation control algorithms and document them in pseudo-code, or by using a programming language, such as C++, or Java.</font>
+						<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">Create user quality interface designs, networking (intranet/ Internet) and test procedures for your software project. Using our spreadsheet templates, show how customer satisfaction quality can be assured.</font>
+						<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">How could you turn networked machines / processes / services into web-pages and work with them locally and remotely for the purpose of monitoring their quality behavior? What are the benefits of having machines / processes / services networked in a CE/TQM client-server architecture? Think about this idea and model different client-server solutions and applications (e.g. remote operation control, remote maintenance, remote quality control, and others).</font>
+						<li><font size="3" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">What operating system would you chose for satisfying CE/TQM requirements, considering the fact, that robustness, and fail-safe operation is essential? (No time to reboot when running at 65 miles per hour...). Please explain why, considering quality, development, cost, run-time, maintenance, and other issues.</font>
+						<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">How do you see the future of quality software from a computer science and software design point of view? (How would you increase the quality of software? How would you be able to justify such development costs? (In order to help you with this task, please look up the <b>Software Engineering Code of Ethics and Professional Practice</b>, within this eBook in <a href="SoftwEngCode.html">.html</a>, or in <a href="SoftwEngCode.doc">MS-Word</a>).</font>
+					</ul>
+					<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="white">. Color </font></p>
+					<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="white">.</font></p>
+				</td>
+				<td width="36" height="2836" rowspan="3"></td>
+				<td content csheight="1921" width="348" height="2680" colspan="10" valign="top" align="left" xpos="405"><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="#008b8b"><b>If you are a CE Software TQM management science/ marketing student</b></font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black"> focus on the illustrated machines / processes / services, and examples , and think about the following: How should they be... </font>
+					<ul>
+						<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">Marketed/ advertised nationally as well as internationally over the Internet following </font><font size="3" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">CE Software </font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">TQM / PLM principles, Virtual Product Demos and other ideas, and by other means (e.g. quality trade shows and special events), </font>
+						<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">Cost-justified to a variety of design and user communities, </font>
+						<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">Evaluated and demonstrated to potential customers.</font>
+						<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">Furthermore, create a spreadsheet that helps potential customers to cost justify the purchase, lease, and other options of the above </font><font size="3" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">CE Software </font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">TQM solutions and services with all necessary 'what-ifs' that individual salesmen can customize and present professionally at meetings, or over the web.</font>
+						<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">Based on our </font><a href="CaseB_Marketing.html"><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="blue">Case Based Marketing</font></a><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black"> methods and ideas, try to come up with a business plan, and an engineering management project plan that can be customized for each customer interested in purchasing, leasing, etc. the illustrated machines / processes / services.</font>
+						<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">How would you offer your services as a </font><font size="3" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">CE Software </font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">TQM sales consultant? Create a business plan and a marketing plan for this idea.</font>
+						<li><font size="3" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">How would you apply CE Software TQM principles for security / safety applications? On what basis would you sell such application opportunities? Develop a marketing and a business plan.</font>
+						<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="3">How would you approach designers, and insurance companies with CE Software TQM options in modern automobiles, and other products and processes?</font>
+						<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">How would you introduce, manage and sell </font><font size="3" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">CE Software </font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">TQM methods and principles in a company, that at present produces poor quality products, processes, services? How would you start? Create a plan.</font>
+						<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">Based on the current culture of the organization, create a TQM plan and a presentation that evaluates and justifies the above illustrated processes and the way they could be integrated into an integrated quality product/ process design strategy for a small, a medium and a large organization/ company, that specializes retrofitting existing products / services with various levels of TQM solutions.</font>
+						<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">Create a TQM transition plan, that includes educational as well as e-commerce aspects of the illustrated products / machines and processes (e.g. for selling the machines over the Internet, or selling services by sharing them with networked customers over the web, and others).</font>
+						<li><font size="3" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">How could you improve the dimensions of quality of a product, or process (including service)?</font>
+						<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">How do you see the future of TQM from a management and marketing point of view? What marketing strategies would you follow to put a physical or virtual telematics / inspection / test machine into every automobile, or other machine / device in a factory? How would you approach the strategy of having a simple device in the digital / regular analogue automobile, collecting data, and a more complex and powerful telematics server, actually processing the data over wireless intranets? Would this be a cost effective solution? How about reliability, and quality of service? Present a strategy to the board.</font>
+						<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">Gap analysis: Conduct a marketing study that could lead to the identification of quality gaps in a product / service, or process. What is the need that is not fulfilled at present? Discuss these ideas with your engineering and computing science team members, as well as selected, potential customers. (Try to set up your own business and implement your ideas!)</font>
+						<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">For a collection of relevant </font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="#008b8b"><b>3D multimedia eBook cases</b></font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black"> (like this one), please visit <a href="http://www.cimwareukandusa.com">http://www.cimwareukandusa.com</a>, then click on the Case-based Library icon.</font>
+						<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">Have we missed anything important ? Please let us know, and we'll try to include them in the next edition of this publication. We are keen to hear from you! Email to us at: <a href="mailto:cimware@mac.com">cimware@mac.com</a></font>
+					</ul>
+					<p></p>
+					<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="white">.</font></p>
+				</td>
+				<td width="1" height="2680"><spacer type="block" width="1" height="2680"></td>
+			</tr>
+			<tr height="80">
+				<td width="2" height="620" colspan="2" rowspan="3"></td>
+				<td width="1" height="156" rowspan="2"></td>
+				<td width="355" height="80" colspan="9" valign="top" align="left" xpos="14"><img src="images/caseiconsm1enjoy_your_break.jpg" usemap="#caseiconsm1enjoy_your_breakbcd5427e" border="0" height="61" width="116" name="CaseIconsM129" alt="Enjoy Your Break"></td>
+				<td width="348" height="156" colspan="10" rowspan="2"></td>
+				<td width="1" height="80"><spacer type="block" width="1" height="80"></td>
+			</tr>
+			<tr height="76">
+				<td width="355" height="76" colspan="9" valign="top" align="left" xpos="14"><img src="images/caseiconsm1references___fur.jpg" border="0" height="62" width="225" name="CaseIconsM128" alt="References &amp; Further Reading"></td>
+				<td width="1" height="76"><spacer type="block" width="1" height="76"></td>
+			</tr>
+			<tr height="464">
+				<td width="87" height="464" colspan="5" valign="top" align="left" xpos="13"><img src="images/caseiconsm1investigate.jpg" border="0" height="92" width="77" name="CaseIconsM112" alt="Investigate"></td>
+				<td width="11" height="464" colspan="4"></td>
+				<td content csheight="453" width="747" height="464" colspan="13" valign="top" align="left" xpos="111"><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">CE and Total Quality Management has a very substantial published literature base.<a name="Anchor-23240" id="Anchor-23240"></a></font>
+					<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">In order to help you with this activity, within this eBook, we have a useful <a href="CaseReferences.html">list of publications</a>. Furthermore, at our <a href="http://www.cimwareukandusa.com/ADAMmain.html">ADAM with IT R&amp;D Journal</a> we have several </font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="#008b8b"><b>journal articles and links to web sites</b></font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"> that help you to find related information over the Internet. </font></p>
+					<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="#008b8b"><b>An Internet search method</b></font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"> written by our distinguished ADAM with IT (Advanced Design and Manufacturing with IT Magazine) Editorial Board Member, Mr. Jim Corlett, Technical Librarian and Information Scientist, Nottingham Trent University, in Nottingham, UK. </font></p>
+					<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Please review these resources because they'll help you in your studies, marketing plans, and give you quality results.</font></p>
+					<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">For a collection of relevant </font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="#008b8b"><b>3D multimedia eBook cases</b></font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black"> (like this one), please visit <a href="http://www.cimwareukandusa.com">http://www.cimwareukandusa.com</a>, then click on the Case-based Library icon, and for </font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="#008b8b"><b>related publications</b></font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black"> by Dr. Ranky, please look up the end of the following page: <a href="http://www.cimwareukandusa.com/aboutpgr.htm">http://www.cimwareukandusa.com/aboutpgr.htm</a></font></p>
+					<p><font size="3" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">F</font><font color="black" size="3" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">o</font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black">r </font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="#008b8b"><b>web sites</b></font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="black"> with direct links to hundreds of related companies and portals please visit: </font><a href="http://www.cimwareukandusa.com/HotEngWebSites.html"><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">http://www.cimwareukandusa.com/HotEngWebSites.html</font></a></p>
+					<p><font size="3" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Thank you for your interest!</font></p>
+					<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="white">.</font></p>
+					<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="white">.</font></p>
+				</td>
+				<td width="1" height="464"><spacer type="block" width="1" height="464"></td>
+			</tr>
+			<tr height="80">
+				<td width="481" height="80" colspan="16" valign="top" align="left" xpos="9"><img src="images/caseiconsm1help_.jpg" usemap="#caseiconsm1help_bcdfdb1b" border="0" height="69" width="439" name="CaseIconsM1" alt="Help!"></td>
+				<td width="12" height="80"></td>
+				<td width="356" height="207" colspan="9" rowspan="2"></td>
+				<td width="1" height="80"><spacer type="block" width="1" height="80"></td>
+			</tr>
+			<tr height="127">
+				<td width="3" height="127" colspan="3"></td>
+				<td content csheight="127" width="490" height="127" colspan="14" valign="top" align="left" xpos="12">
+					<center>
+						<font size="1" color="#666666" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">&copy; Copyright and Design Rights by CIMware USA, Inc., and CIMware Ltd. UK: Hi-Tech. USA and International Advanced Design, Manufacturing and Management with IT / IS Case Studies following a browser readable, interactive multimedia talking book-style electronic publication format with text, images, interactive digital videos, 3DVR objects and 360 degree panoramic images by CIMware USA, Inc., and CIMware Ltd. UK. Web: </font><font size="1" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><a href="http://www.cimwareukandusa.com"><font color="blue">http://www.cimwareukandusa.com</font></a></font><font size="1" color="#666666" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">, Email: </font><font size="1" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular"><a href="mailto:cimware@mac.com">cimware@mac.com</a></font><font size="1" color="#666666" face="Arial, Helvetica, Geneva, Swiss, SunSans-Regular">. Virtual Product Demo concept and system design by Paul G Ranky, PhD. All Rights Reserved!</font></center>
+				</td>
+				<td width="1" height="127"><spacer type="block" width="1" height="127"></td>
+			</tr>
+			<tr height="1" cntrlrow>
+				<td width="3" height="1"><spacer type="block" width="3" height="1"></td>
+				<td width="6" height="1"><spacer type="block" width="6" height="1"></td>
+				<td width="1" height="1"><spacer type="block" width="1" height="1"></td>
+				<td width="1" height="1"><spacer type="block" width="1" height="1"></td>
+				<td width="1" height="1"><spacer type="block" width="1" height="1"></td>
+				<td width="1" height="1"><spacer type="block" width="1" height="1"></td>
+				<td width="1" height="1"><spacer type="block" width="1" height="1"></td>
+				<td width="3" height="1"><spacer type="block" width="3" height="1"></td>
+				<td width="3" height="1"><spacer type="block" width="3" height="1"></td>
+				<td width="1" height="1"><spacer type="block" width="1" height="1"></td>
+				<td width="79" height="1"><spacer type="block" width="79" height="1"></td>
+				<td width="3" height="1"><spacer type="block" width="3" height="1"></td>
+				<td width="1" height="1"><spacer type="block" width="1" height="1"></td>
+				<td width="6" height="1"><spacer type="block" width="6" height="1"></td>
+				<td width="1" height="1"><spacer type="block" width="1" height="1"></td>
+				<td width="258" height="1"><spacer type="block" width="258" height="1"></td>
+				<td width="36" height="1"><spacer type="block" width="36" height="1"></td>
+				<td width="85" height="1"><spacer type="block" width="85" height="1"></td>
+				<td width="12" height="1"><spacer type="block" width="12" height="1"></td>
+				<td width="18" height="1"><spacer type="block" width="18" height="1"></td>
+				<td width="7" height="1"><spacer type="block" width="7" height="1"></td>
+				<td width="23" height="1"><spacer type="block" width="23" height="1"></td>
+				<td width="1" height="1"><spacer type="block" width="1" height="1"></td>
+				<td width="10" height="1"><spacer type="block" width="10" height="1"></td>
+				<td width="4" height="1"><spacer type="block" width="4" height="1"></td>
+				<td width="169" height="1"><spacer type="block" width="169" height="1"></td>
+				<td width="19" height="1"><spacer type="block" width="19" height="1"></td>
+				<td width="105" height="1"><spacer type="block" width="105" height="1"></td>
+				<td width="61" height="1"><spacer type="block" width="61" height="1"></td>
+				<td width="75" height="1"><spacer type="block" width="75" height="1"></td>
+				<td width="1" height="1"><spacer type="block" width="1" height="1"></td>
+				<td width="216" height="1"><spacer type="block" width="216" height="1"></td>
+				<td width="1" height="1"></td>
+			</tr>
+		</table>
+		<map name="caseiconsm1help_bcdfdb1b"><area shape="rect" coords="314,37,392,60" href="Ch16_TQM_ServiceIndustry.html" alt=""><area shape="rect" coords="223,37,302,59" href="Ch14_TQM_NetwTQMTQC.html" alt=""><area shape="rect" coords="47,37,102,61" href="CaseHelp.html" alt=""><area shape="rect" coords="268,3,428,30" href="http://www.cimwareukandusa.com" alt=""><area shape="rect" coords="181,3,259,26" href="CaseAcknowledge.html" alt=""><area shape="rect" coords="93,4,172,27" href="GlossaryOfTerms.html" alt=""><area shape="rect" coords="6,4,82,27" href="CaseContents.html" alt=""></map><map name="caseiconsm1help_bcdfdbb9"><area shape="rect" coords="315,38,392,60" href="Ch16_TQM_ServiceIndustry.html" alt=""><area shape="rect" coords="221,38,303,59" href="Ch14_TQM_NetwTQMTQC.html" alt=""><area shape="rect" coords="47,37,100,60" href="CaseHelp.html" alt=""><area shape="rect" coords="268,4,429,26" href="http://www.cimwareukandusa.com" alt=""><area shape="rect" coords="180,4,260,26" href="CaseAcknowledge.html" alt=""><area shape="rect" coords="92,4,171,27" href="GlossaryOfTerms.html" alt=""><area shape="rect" coords="3,3,85,29" href="CaseContents.html" alt=""></map><map name="caseiconsm1have__a__breakbcd5420a"><area shape="rect" coords="3,3,62,73" href="CaseRelax.html" alt=""></map><map name="caseiconsm1have_a__breakbcd54265"><area shape="rect" coords="5,3,70,66" href="CaseRelax.html" alt=""></map><map name="caseiconsm1enjoy_your_breakbcd5427e"><area shape="rect" coords="4,2,108,52" href="CaseRelax.html" alt=""></map>
+		<p></p>
+	</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
