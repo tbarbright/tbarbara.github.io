@@ -17,7 +17,9 @@ html, body
 /*Page header*/
 #profile
 {
-	margin: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
     background-color: #488AC7;
 }
 
