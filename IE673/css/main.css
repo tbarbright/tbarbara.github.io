@@ -1,0 +1,175 @@
+/*Main CSS file applied across all pages*/
+
+/*Override default margins and fonts*/
+*
+{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0em;
+	padding: 0em;
+}
+
+/*A nice blue background*/
+html, body
+{
+    background-color: #488AC7;
+}
+
+/*Page header*/
+#profile
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+    background-color: #488AC7;
+}
+
+/*Those social media buttons that everyone loves so much*/
+#profile_links
+{
+	list-style-type: none;
+	text-align: center;
+	float: right;
+}
+
+/*Display social media buttons inline*/
+#profile_links > li
+{
+	display: inline;
+}
+
+/*My name*/
+#name
+{
+	text-align: center;
+	font-size: 3em;
+}
+
+/*My name is a link to landing page but it doesn't have to be ugly as shit*/
+#name a
+{
+    text-decoration: none;
+    color: white;
+}
+#name a:hover
+{
+    color: #9CC5EB;
+}
+
+/*Nav bar should float left of profile buttons on large screens*/
+#nav 
+{
+    overflow: hidden;
+    background-color: #488AC7;
+    min-width: 10em;
+}
+
+#nav ul
+{
+    list-style: none;
+}
+
+#nav a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: .5em 1em;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    float: left;
+}
+
+/* Change the link color */
+#nav a:hover 
+{
+    background-color: #9CC5EB;
+    border: 2px;
+    border-top-right-radius: .5em;
+    border-top-left-radius: .5em;
+}
+
+/* Change color of current tab */
+.activelink
+{
+    background-color: #0B589E;
+    border: 2px;
+    border-top-right-radius: .5em;
+    border-top-left-radius: .5em;
+}
+
+footer
+{
+    width: 100%;
+    float: left;
+    text-align: center;
+	background-color: #488AC7;
+}
+
+/*Footer text to white*/
+footer > p
+{
+    color: white;
+}
+
+/*Small browser windows should separate and stack profile and nav bar to save room*/
+@media screen and (max-width: 480px) 
+{
+    #nav
+    {
+        text-align: center;
+        width: 100%;
+    }
+    
+    #profile_links
+    {
+	    list-style-type: none;
+    	text-align: center;
+	    float: none;
+    }
+}
+
+/*Mobile*/
+@media screen and (max-device-width: 480px) 
+{
+    #nav
+    {
+        text-align: center;
+        width: 100%;
+    }
+    #nav a 
+    {
+        font-size: 3em;
+    }
+    footer > p
+    {
+        font-size: 2em;
+    }
+    h2
+    {
+        font-size: 3em;
+    }
+    h3
+    {
+        font-size: 2.5em;
+    }
+    p
+    {
+        font-size: 2.5em;
+    }
+    #name
+    {
+    	text-align: center;
+	    font-size: 5em;
+    }
+    #profile_links
+    {
+	    list-style-type: none;
+    	text-align: center;
+	    float: none;
+    }
+    #profile_links > li
+    {
+        size: 80px;
+    }
+}
