@@ -28,25 +28,35 @@ img
 
 .info > p
 {
-	padding: 1em;
+	padding-left: 5em;
+    padding-right: 5em;
+	padding-top: 1.5em;
+	padding-top: 1.5em;
+}
+
+.info > h1
+{
+    color: blue;
+	padding: 3em;
 	padding-top: 1.5em;
 }
 
 .info > h2
 {
     color: green;
-	padding: 1em;
+	padding-left: 3em;
+	padding-right: 3em;
 	padding-top: 1.5em;
 }
 
 .info > h3
 {
-	padding: 1em;
+	padding: 3em;
 	padding-top: 1.5em;
 }
 
 .info > h4
 {
-	padding: 1em;
+	padding: 3em;
 	padding-top: 1.5em;
 }
