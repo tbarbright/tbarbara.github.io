@@ -112,6 +112,22 @@ footer > p
     color: white;
 }
 
+figure 
+{
+    width: 90%;
+    float: center;
+    margin: 5px; /* adjust as needed */
+}
+figure img 
+{
+    vertical-align: top;
+}
+figure figcaption 
+{
+    border: 1px dotted gray;
+    text-align: center;
+}
+
 /*Small browser windows should separate and stack profile and nav bar to save room*/
 @media screen and (max-width: 480px) 
 {
